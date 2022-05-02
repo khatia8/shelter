@@ -7,36 +7,38 @@
     <title>Shelter</title>
 
     <link rel="stylesheet" href="../../assets/styles/normalize.css" />
+    <link rel="stylesheet" href="../../assets/styles/common.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <div>
-        <h1>Cozy House</h1>
-        <h5>Shelter for pets in Boston</h5>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#about">About the shelter</a></li>
-          <li><a href="../pets/index.html">Our pets</a></li>
-          <li><a href="#help">Help the shelter</a></li>
-          <li><a href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
-    </header>
-
     <main>
-      <div>
-        <div>
-          <h2>Not only people need a house</h2>
-          <p>
-            We offer to give a chance to a little and nice puppy with an
-            extremely wide and open heart. He or she will love you more than
-            anybody else in the world, you will see!
-          </p>
-          <button id="makeAFriend-button">Make a friend</button>
-        </div>
-        <div>
+      <div class="gradient heading-wrapper">
+        <header class="container">
+          <div>
+            <h1>Cozy House</h1>
+            <h5>Shelter for pets in Boston</h5>
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a href="#about" class="about-shelter">About the shelter</a>
+              </li>
+              <li><a href="../pets/index.html">Our pets</a></li>
+              <li><a href="#help">Help the shelter</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="not-only container">
+          <div>
+            <h2>Not only people need a house</h2>
+            <p>
+              We offer to give a chance to a little and nice puppy with an
+              extremely wide and open heart. He or she will love you more than
+              anybody else in the world, you will see!
+            </p>
+            <button class="make-a-friend">Make a friend</button>
+          </div>
           <img
             src="../../assets/images/start-screen-puppy.png"
             alt="start-screen-puppy"
@@ -44,8 +46,8 @@
         </div>
       </div>
 
-      <div>
-        <div>
+      <div class="container about-section">
+        <div class="about-dog">
           <img src="../../assets/images/about-pets.png" alt="about-pets" />
         </div>
         <div>
@@ -67,7 +69,7 @@
         </div>
       </div>
 
-      <div>
+      <div class="gray-bg">
         <h3>Our friends who are looking for a house</h3>
         <div>
           <div>
@@ -104,9 +106,9 @@
         <a href="../pets/index.html">Get to know the rest</a>
       </div>
 
-      <div>
+      <div class="container help-section">
         <h3>How you can help our shelter</h3>
-        <div>
+        <div class="help-icons">
           <div>
             <img src="../../assets/icons/icon-pet-food.svg" alt="pet-food" />
             <span>pet-food</span>
@@ -162,16 +164,16 @@
         </div>
       </div>
 
-      <div>
-        <div>
+      <div class="gray-bg">
+        <div class="container donation">
           <img src="../../assets/images/donation-dog.png" alt="" />
           <div>
-            <h1>You can also make a donation</h3>
+            <h3>You can also make a donation</h3>
             <p>Name of the bank / Type of bank account</p>
             <a href="javascript:void(0)">
               <img src="../../assets/icons/Creditcard.svg" alt="credit" />
             </a>
-            <p>
+            <p class="donation-desc">
               Legal information and lorem ipsum dolor sit amet, consectetur
               adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed
               ac diam. Praesent ultrices maximus tortor et vulputate. Interdum
@@ -182,7 +184,7 @@
       </div>
     </main>
 
-    <footer>
+    <footer class="gradient">
       <div>
         <h2>For questions and suggestions</h2>
         <div>
